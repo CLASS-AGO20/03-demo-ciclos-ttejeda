@@ -20,31 +20,20 @@ export default class App {
             fin = t;
         }
 
-        for (let i = inicio; i <= fin; i = i++){
+        for (let i = inicio; i <= fin; i = i + 1){
             if (i % 2 != 0){
-                impares++;
+                impares = impares + 1;
             }
         }
 
       return impares;
     }
 
-    sumarParesWhile(){
-        let i = 1;
-        let suma = 0;
-
-        while(i <= 20){
-            if(i & 2 == 0){
-                suma = suma + 1;
-            }
-
-            i = i + 1;
-        }
-
-      return suma;
-    }
 }
 
 let app = new App();
 
-console.log(app.sumarParesWhile());
+console.log(app.sumarParesFor());
+
+console.log(app.contarImparesFor(5, 11));
+
