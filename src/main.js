@@ -80,7 +80,7 @@ let app = new App();
 
 console.log(app.sumarParesFor());
 
-console.log(app.contarImparesFor(5, 11));
+console.log(app.contarImparesFor(5, 12));
 
 console.log(app.sumarParesWhile());
 
