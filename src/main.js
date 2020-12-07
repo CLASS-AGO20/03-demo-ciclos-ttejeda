@@ -76,14 +76,15 @@ export default class App {
     }
 
     contarImparesDo(inicio, fin){
-        let i = inicio;
-        let impares = 0;
-
+        
         if (inicio > fin){
             let t = inicio;
             inicio = fin;
             fin = t;
         }
+        
+        let i = inicio;
+        let impares = 0;
 
         do {
             if (i % 2 != 0){
@@ -95,6 +96,7 @@ export default class App {
 
       return impares;
     }
+
 }
 
 let app = new App();
