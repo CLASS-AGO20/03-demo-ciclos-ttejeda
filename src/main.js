@@ -79,6 +79,12 @@ export default class App {
         let i = inicio;
         let impares = 0;
 
+        if (inicio > fin){
+            let t = inicio;
+            inicio = fin;
+            fin = t;
+        }
+
         do {
             if (i % 2 != 0){
                 impares = impares + 1;
