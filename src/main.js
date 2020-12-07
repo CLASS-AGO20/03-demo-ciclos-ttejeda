@@ -69,4 +69,4 @@ console.log(app.contarImparesFor(5, 11));
 
 console.log(app.sumarParesWhile());
 
-console.log(app.contarImparesWhile(5, 11));
+console.log(app.contarImparesWhile(5, 12));
